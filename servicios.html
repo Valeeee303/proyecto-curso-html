@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+      <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shourcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Spartan 3D</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Servicios que ofrecemos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a class="active" href="servicios.html">Servicios</a></li> <!-- aca incluir lo audio visual y tablas del curso-->
+                <li><a href="insumos.html">Insumos</a> <!--puede estar aca la tabla en vez de arriba--></li> 
+                <li><a href="contacto.html">Contacto</a></li> 
+             </ul>
+        </nav>
+
+        <style>
+            body {
+                font-family: "Lucida Console", "Courier New", monospace;
+                background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+                padding: 0;
+                margin: 0;
+            }
+    
+            header {
+                text-align: center;
+            }
+    
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+    
+            li {
+                float: left;
+            }
+    
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+    
+            li a:hover:not(.active) {
+                background-color: #111;
+            }
+    
+            .active {
+                background-color: #04AA6D;
+            }
+    
+            h1 {
+                background-color: black;
+                padding: 10px;
+                margin: 0;
+                color: #92a4ff;
+            }
+    
+            div.gallery {
+                margin: 5px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 33vw;
+            }
+    
+            div.gallery:hover {
+                border: 1px solid #777;
+            }
+    
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
+    
+            div.desc {
+                padding: 15px;
+                text-align: center;
+            }
+    
+            .centrado {
+                display: flex;
+                justify-content: center;
+            }
+            .footer {
+                background-color: #333;
+                color: #FFF;
+                padding: 10px;
+                text-align: center;
+                clear: both;
+            }
+        </style>
+
+    </header>
+
+    <div class="centrado">
+        <video src="assets/video/VID-20200726-WA0007.mp4" autoplay muted width="300px"></video>
+    </div>
+    <div class="centrado">
+        <audio src="assets/video/300-this-is-sparta.mp3" autoplay controls ></audio>
+    </div>
+    <section class="centrado">
+        <div class="gallery">
+            <h2>Hacemos Articulos de decoracion</h2>
+            <a href="assets/img/cuadro 2d.jpg" target="_blank"><img src="assets/img/cuadro 2d.jpg" width="200px" alt="cuadro 2d"></a>
+            <a href="assets/img/maceta paraguas.jpg" target="_blank"><img src="assets/img/maceta paraguas.jpg" width="200px" alt="maceta paraguas"></a>            
+            <img src="assets/img/maceta groot.jpg" width="300px" alt="maceta groot">            
+        </div>
+        <div>
+            <h2>Mates</h2>
+            <img src="assets/img/mate buda.jpg" alt="mate buda" width="300px">
+            <video src="assets/video/VID_20210804_131940.mp4" autoplay muted width="200px"></video>
+        </div>
+        <div class="gallery">
+            <h2> Tambien juguetes...</h2>
+            <a href="assets/img/kakashi.jpg" target="_blank"><img src="assets/img/kakashi.jpg" alt="Kakashi personaje de Naruto" width="250px"></a>
+            <video src="assets/video/VID_20210812_123717.mp4" autoplay muted width="200px"></video>
+            <img src="assets/img/gorritos papa noel.jpeg" alt="gorritos de papa noel" width="400px">
+            <a href="assets/img/mosasaurus.jpg" target="_blank"><img src="assets/img/mosasaurus.jpg" alt="dinosaurio marino Jurassick Park" width="400px"></a>
+        </div>
+        <div class="gallery">
+            <h2> Y soportes de todo tipo</h2>
+            <img src="assets/img/soporte groot.jpg" width="300px" alt="soporte para joystick">
+            <img src="assets/img/soporte luz.jpg" width="300px" alt="soporte para luz">
+            <img src="assets/img/soporte cel.jpg" width="300px" alt="soporte para celular">
+            <a href="assets/img/porta fresas.jpg" target="_blank"><img src="assets/img/porta fresas.jpg" width="300px" alt="porta fresas"></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <P>Derechos reservados &copy; 2023</P>
+    </footer>
+</body>
+
+</html>

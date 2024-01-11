@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shourcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Spartan 3D</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {         /* Para posicionar las imagenes en la pagina*/
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Spartan 3D</h1>
+        <nav>
+            <ul>
+               <li><a class="active" href="index.html">Home</a></li> 
+               <li><a href="servicios.html">Servicios</a></li> <!-- aca incluir lo audio visual y tablas del curso-->
+               <li><a href="insumos.html">Insumos</a> <!--puede estar aca la tabla en vez de arriba--></li> 
+               <li><a href="contacto.html">Contacto</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Quienes somos</h2>
+    <hr>
+
+    <article class="container">
+        <h3>Spartan 3D</h3>
+        <img class="image" src="assets/img/Spartan 3D logo.jpg" alt="Spartan logo">
+        <p> <b>Lorem</b> ipsum dolor sit amet consectetur adipisicing elit.
+            Nisi, harum.dolor sit amet consectetur, adipisicing elit.
+            Quam non facere tempore similique ea corrupti voluptatibus
+            aliquam placeat aliquid qui.Lorem <b>dolor, sit amet</b>
+            consectetur adipisicing elit. Reiciendisqui accusamus aut
+            voluptas. Provident explicabo a cupiditate at praesentium
+            sed dicta, voluptatum sit, iure culpa facilis dolorem
+            repudiandae, nobis rerum!</p>
+        <img class="image2" src="assets/img/kakashi.jpg" alt="Figura kakashi pintada a mano">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sequi non dolorem maxime laudantium libero quo! Neque numquam
+            vel qui tenetur,<i> illum optio debitis excepturi.</i> Numquam eos
+            porro quod asperiores temporibus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <img class="image" src="assets/img/gorritos papa noel.jpeg" alt="sombreritos papa noel">
+        <p>Ratione minus iste exercitationem harum rerum asperiores quod,
+            odit debitis dolore est fuga dolores voluptatem cupiditate?
+            Molestiae ipsa explicabo soluta voluptas ipsum?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Doloribus, praesentium vitae minus incidunt, maxime assumenda
+            rem est minima quia quis eius corrupti voluptatibus possimus
+            ut tenetur animi corporis nesciunt quo? </p>
+    </article>
+
+    <footer class="footer">
+        <P>Derechos reservados &copy; 2023</P>
+    </footer>
+</body>
+
+</html>
